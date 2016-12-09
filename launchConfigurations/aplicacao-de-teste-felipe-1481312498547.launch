@@ -1,0 +1,25 @@
+{
+    "Params": {
+        "DevMode": {
+            "Instrumentation": {
+                "command": "",
+                "env": {
+                    "BLUEMIX_APP_MGMT_ENABLE": "devconsole+shell+inspector",
+                    "NODE_ENV": "development"
+                },
+                "memory": "384M"
+            },
+            "Packager": "com.ibm.perfectstorm.cloudoe.packager.LiveEditDeploymentPackager"
+        },
+        "Name": "aplicacao-de-teste-felipe",
+        "Target": {
+            "Org": "90ab53fa-a73d-4fa4-a7a3-ddbc32424fa9",
+            "Space": "3c61ad8e-8cee-47da-b699-68dddc49741a",
+            "Url": "https://api.ng.bluemix.net"
+        },
+        "Timeout": 60
+    },
+    "Path": "",
+    "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+    "Type": "Cloud Foundry"
+}
