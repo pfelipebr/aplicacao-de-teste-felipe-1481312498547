@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: aplicacao-de-teste-felipe
+  host: aplicacao-de-teste-felipe
+  disk_quota: 1024M
+  services:
+  - aplicacao-de-teste-felipe-AdvancedMobileAccess
+  - aplicacao-de-teste-felipe-imfpush
+  - aplicacao-de-teste-felipe-cloudantNoSQLDB
